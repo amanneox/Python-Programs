@@ -15,4 +15,4 @@ class yrange:
             raise StopIteration()
 y=yrange(3)
 
-print(y.next())
+print([y.next() for i in range(3)])
