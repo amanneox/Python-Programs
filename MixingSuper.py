@@ -9,7 +9,7 @@ class B(object):
 class C(A,B):
     def __init__(self):
         print("C")
-        A.__init__(self)
+        A.__init__(self) #Calls B Twice
         B.__init__(self)
 
 print("MRO:", [x.__name__ for x in C.__mro__])
