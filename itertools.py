@@ -9,3 +9,5 @@ print(list(itertools.accumulate(months,operator.add)))
 a=range(5)
 b=range(10)
 print(list(itertools.chain(a,b)))
+
+print(list(itertools.combinations(range(3),2)))
